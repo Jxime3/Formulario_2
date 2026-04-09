@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Formulario de Registro</h2>
+
+<form>
+    <table>
+        <tr>
+            <td>Nombres:</td>
+            <td><input type="text" name="nombres"></td>
+        </tr>
+        
+        <tr>
+            <td>Número de cédula:</td>
+            <td><input type="number" name="cedula"></td>
+        </tr>
+
+        <tr>
+            <td>Fecha de nacimiento:</td>
+            <td><input type="date" name="fecha"></td>
+        </tr>
+
+        <tr>
+            <td>Ciudad:</td>
+            <td><input type="text" name="ciudad"></td>
+        </tr>
+
+        <tr>
+            <td>Correo:</td>
+            <td><input type="email" name="correo"></td>
+        </tr>
+
+        <tr>
+            <td>Teléfono:</td>
+            <td><input type="tel" name="telefono"></td>
+        </tr>
+
+        <tr>
+            <td>Dirección:</td>
+            <td><textarea name="direccion" rows="3" cols="20"></textarea></td>
+        </tr>
+
+        <tr>
+            <td>Estado civil:</td>
+            <td>
+                <select name="estadoCivil">
+                    <option>Seleccione...</option>
+                    <option>Soltero</option>
+                    <option>Casado</option>
+                    <option>Divorciado</option>
+                    <option>Viudo</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Etnia:</td>
+            <td>
+                <select name="etnia">
+                    <option>Seleccione...</option>
+                    <option>Mestizo</option>
+                    <option>Indígena</option>
+                    <option>Afrodescendiente</option>
+                    <option>Blanco</option>
+                    <option>Otro</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Género:</td>
+            <td>
+                <input type="radio" name="genero"> Masculino
+                <input type="radio" name="genero"> Femenino
+                <input type="radio" name="genero"> Otro
+            </td>
+        </tr>
+
+        <tr>
+            <td>Gustos personales:</td>
+            <td>
+                <input type="checkbox"> Deportes
+                <input type="checkbox"> Música
+                <input type="checkbox"> Lectura
+                <input type="checkbox"> Tecnologías
+                <input type="checkbox"> Otros
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
